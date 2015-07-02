@@ -1,13 +1,13 @@
 Veewee::Session.declare({
-  :cpu_count => '1',
-  :memory_size=> '480',
+  :cpu_count => '2',
+  :memory_size=> '768',
   :disk_size => '10140',
   :disk_format => 'VDI',
   :hostiocache => 'off',
-  :os_type_id => 'RedHat6_64',
+  :os_type_id => 'Centos_64',
   :iso_file => 'CentOS-7-x86_64-Minimal-1503-01.iso',
   :iso_src => "http://centos.vpsnet.lt/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1503-01.iso",
-  :iso_md5 => "d07ab3e615c66a8b2e9a50f4852e6a77",
+  :iso_sha256 => "7cf1ac8da13f54d6be41e3ccf228dc5bb35792f515642755ff4780d5714d4278",
   :iso_download_timeout => 1000,
   :boot_wait => "10",
   :boot_cmd_sequence => [
