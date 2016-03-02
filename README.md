@@ -19,5 +19,5 @@ Checkout this repo. You'll need inside repo directory to build a box.
 
 Just run the following command in the repository root:
 
-    $ veewee vbox build CentOS-7.1.1503-x86_64-netboot
-    $ veewee vbox export CentOS-7.1.1503-x86_64-netboot
+    $ veewee vbox build CentOS-7.1
+    $ veewee vbox export CentOS-7.1
