@@ -6,8 +6,8 @@ Veewee::Session.declare({
   :hostiocache => 'off',
   :os_type_id => 'Centos_64',
   :iso_file => 'CentOS-7-x86_64-Minimal-1503-01.iso',
-  :iso_src => "http://centos.vpsnet.lt/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1503-01.iso",
-  :iso_sha256 => "7cf1ac8da13f54d6be41e3ccf228dc5bb35792f515642755ff4780d5714d4278",
+  :iso_src => "http://centos.vpsnet.lt/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1511.iso",
+  :iso_sha256 => "f90e4d28fa377669b2db16cbcb451fcb9a89d2460e3645993e30e137ac37d284",
   :iso_download_timeout => 1000,
   :boot_wait => "10",
   :boot_cmd_sequence => [
