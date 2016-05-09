@@ -13,7 +13,6 @@ EOM
 yum -y install gcc make gcc-c++ kernel-devel-`uname -r` zlib-devel openssl-devel readline-devel sqlite-devel perl wget dkms nfs-utils bzip2
 systemctl stop firewalld
 systemctl mask firewalld
-yum -y install iptables iptables-services
-systemctl enable iptables
+systemctl disable firewalld
 # Make ssh faster by not waiting on DNS
 echo "UseDNS no" >> /etc/ssh/sshd_config
