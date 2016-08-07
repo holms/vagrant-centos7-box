@@ -21,3 +21,7 @@ Just run the following command in the repository root:
 
     $ veewee vbox build CentOS-7.1
     $ veewee vbox export CentOS-7.1
+
+##Troubleshoot
+
+* If you can't authentificate to vagrant image please do this: `config.ssh.insert_key = false` in your Vagrantfile
